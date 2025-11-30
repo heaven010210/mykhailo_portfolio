@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>Mykhailo Nikolenko</title>
+
+    <link rel="stylesheet" type="text/css" href="style/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="icon" href="img/favicon_rk.ico" sizes="32x32"/>
+</head>
+
+<script type="text/javascript" src="js/library/jquery.min.js"></script>
+<script type="text/javascript" src="js/library/Three.js"></script>
+<script type="text/javascript" src="js/library/OrbitControls.js"></script>
+<script type="text/javascript" src="js/library/GPUParticleSystem.js"></script>
+<script type="text/javascript" src="js/mine/conf.js"></script>
+<script type="text/javascript" src="js/mine/3d.js"></script>
+<script type="text/javascript" src="js/mine/main.js"></script>
+
+<body>
+    <div id="logo_area"></div>
+    <div id="menu_area">
+        <ul>
+            <li class="active"><a href="?"><img src="img/menu_home.png"></a></li>
+            <li><a href="?page=portfolio&section=site"><img src="img/menu_portfolio.png"></a></li>
+        </ul>
+    </div>
+    <div id="about_me">
+        <h3 class="add_anim_about">When I was 8 years old, I was completely obsessed with games. I spent most of my time playing them.</h3>
+        <h3>One day, my father said, Mykhailo, find your own path.”</h3>
+        <h3>That simple sentence became a turning point. It inspired me to start exploring web development.</h3>
+        <h3>Thirteen years ago, in 2012, I began working with WebGL, JavaScript, and React.</h3>
+        <h3>For me, building web apps and websites isn’t just work, it’s a dream, a journey filled with meaning, and the source of my happiness.</h3>
+        <h3>I always give my best when working on web-based projects.</h3>
+        <h3>I don’t do this for the money, I do it because it makes me feel alive, fulfilled, and proud of what I create.</h3>
+    </div>
+    <div id="skill_area">
+        <span>WebGL</span>
+        <span>Three.js</span>
+        <span>Babylon.js</span>
+        <span>Html5</span>
+        <span>Javascript</span>
+        <span>React.js</span>
+        <span>AI</span>
+        <span>Phaser.js</span>
+        <span>Pixi.js</span>
+        <span>Shopify</span>
+        <span>CSS</span>
+        <span>Blockchain</span>
+    </div>
+    <div id="area_3D"></div>
+    <div id="area_portfolio">
+        <div id="port_title">
+            <ul>
+                <li area="site"><a href="?page=portfolio&section=site">3D Websites</a></li>
+                <li area="motion"><a href="?page=portfolio&section=motion">3D Animations</a></li>
+                <li area="config"><a href="?page=portfolio&section=config">3D Configure</a></li>
+                <li area="editor"><a href="?page=portfolio&section=editor">3D Builder</a></li>
+                <li area="cesium"><a href="?page=portfolio&section=cesium">Cesium</a></li>
+                <li area="wordpress"><a href="?page=portfolio&section=wordpress">Wordpress</a></li>
+                <li area="html5-app"><a href="?page=portfolio&section=html5-app">HTML5 Apps</a></li>
+                <li area="html5-game"><a href="?page=portfolio&section=html5-game">HTML5 Games</a></li>
+            </ul>
+        </div>
+        <div id="port_body">
+            <dl>
+                <dd area="web">
+                    <img src="photos/1.jpg">
+                    <div class="port_label">
+                        <p>Web-based 3D Panorama Viewer Using Three.js</p>
+                        <div class="button"></div>
+                    </div>
+                </dd>
+                <dd area="anim">
+                    <img src="photos/2.jpg">
+                    <div class="port_label">
+                        <p>Web-based 3D Panorama Viewer Using Three.js</p>
+                        <div class="button"></div>
+                    </div>
+                </dd>
+                <dd area="web">
+                    <img src="photos/3.jpg">
+                    <div class="port_label">
+                        <p>Web-based 3D Panorama Viewer Using Three.js</p>
+                        <div class="button"></div>
+                    </div>
+                </dd>
+                <dd area="conf">
+                    <img src="photos/4.jpg">
+                    <div class="port_label">
+                        <p>Web-based 3D Panorama Viewer Using Three.js</p>
+                        <div class="button"></div>
+                    </div>
+                </dd>
+                <dd area="html5-game">
+                    <img src="photos/5.jpg">
+                    <div class="port_label">
+                        <p>Web-based 3D Panorama Viewer Using Three.js</p>
+                        <div class="button"></div>
+                    </div>
+                </dd>
+                <dd area="web">
+                    <img src="photos/6.jpg">
+                    <div class="port_label">
+                        <p>Web-based 3D Panorama Viewer Using Three.js</p>
+                        <div class="button"></div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+        <div class="slider-container">
+            <input type="range" min="0" max="100" value="100" class="vertical-slider" id="mySlider">
+        </div>
+    </div>
+    <div id="preview_online">
+        <p>Web-based 3D Configurator</p>
+        <img src="img/close.png" id="btn_close_view">
+        <img src="img/loading.gif" id="loading_page">
+        <iframe></iframe>
+    </div>
+</body>
